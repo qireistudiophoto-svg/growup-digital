@@ -9,7 +9,7 @@ $("burger").addEventListener("click", () => $("menu").classList.toggle("open"));
 document.querySelectorAll("#menu a").forEach(a => a.addEventListener("click", () => $("menu").classList.remove("open")));
 
 // Tombol WhatsApp melayang
-$("wa").href = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Halo GrowUp Digital, saya ingin konsultasi iklan untuk usaha saya.")}`;
+$("wa").href = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Halo SMART CONSULT Digital, saya ingin konsultasi iklan untuk usaha saya.")}`;
 
 // Pilih paket dari kartu harga -> otomatis terpilih di form
 document.querySelectorAll("[data-paket]").forEach(btn => {
@@ -48,7 +48,7 @@ $("form").addEventListener("submit", (e) => {
   e.preventDefault();
   const jadwal = new Date($("jadwal").value).toLocaleString("id-ID", { dateStyle: "full", timeStyle: "short" });
   const teks =
-`Halo GrowUp Digital, saya ingin booking konsultasi.
+`Halo SMART CONSULT Digital, saya ingin booking konsultasi.
 
 Nama: ${$("nama").value}
 Usaha: ${$("usaha").value}
