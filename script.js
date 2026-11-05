@@ -1,5 +1,5 @@
 // Ganti dengan nomor WhatsApp Anda (format internasional tanpa +)
-const WA_NUMBER = "6281234567890";
+const WA_NUMBER = "6285782102982";
 
 const $ = (id) => document.getElementById(id);
 const rp = (n) => "Rp" + Math.round(n).toLocaleString("id-ID");
